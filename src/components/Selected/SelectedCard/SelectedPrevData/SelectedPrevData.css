@@ -1,0 +1,33 @@
+.selectedPrevData-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.selectedPrevData-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #ac32e4;
+    width: 450px;
+}
+
+.selectedPrevData h3 {
+    font-size: 16px;
+    width: 150px;
+}
+
+.selectedPrevData-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.selectedPrevData-price {
+    width: 110px;
+    padding-bottom: 1px;
+}
